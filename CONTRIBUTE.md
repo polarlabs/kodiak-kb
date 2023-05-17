@@ -1,5 +1,22 @@
 # Security
 
+To the Kodiak project, security is key. This includes secure commits to the code base. With git spoofing a developers identity is easy as there are no controls 
+to ensure that the local commiter's identity matches the GitHub account. This gap is closed by signed commits. On Kodiak's repos, only signed commits are 
+allowed. Any developer contributing to Kodiak has to sign off commits.
+
+This ensures that all commits are verified:
+
+![Screenshot of a verified commit](https://github.com/polarlabs/kodiak-kb/blob/main/github-commit-verified.png?raw=true)
+
+In short this involves:
+
+* Create a GPG key and uploade the public key to the developers GitHub account.
+* Enable vigilant mode on GitHub account.
+* Configure git to sign commits.
+
+The full procedure is documented at GitHub (refer to the links below). To lower the entry barrier and foster best practices, we share a short
+step-by-step guide with you.
+
 ## GPG Key
 
 ```
@@ -91,7 +108,6 @@ git config --global commit.gpgsign true
 
 # Links 
 
-[https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key](Generating a new GPG key)
+[Generating a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
 
-[https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key](Telling Git about your signing key)
-
+[Telling Git about your signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
