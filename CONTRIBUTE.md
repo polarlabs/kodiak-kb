@@ -17,6 +17,15 @@ In short this involves:
 The full procedure is documented at GitHub (refer to the links below). To lower the entry barrier and foster best practices, we share a short
 step-by-step guide with you.
 
+We recommend to follow these practices when creating a GPG key:
+
+* Use a GPG key for signing commits (it's more secure, then SSH keys, as it can expire and be revoked):
+  * Use your GitHub account as *real name* of your GPG key.
+  * Use the verified email address of your GitHub accounts as *email address* of your GPG key.
+* Set a key expiration date. 
+* Protect your key with a strong passphrase and store it securely.
+
+
 ## GPG Key
 
 ```
@@ -100,6 +109,8 @@ Add the GPG Public Key to your GitHub Account:
 Make also sure you enable vigilant mode.
 
 ![Screenshot of Github account settings (Vigilant mode)](https://github.com/polarlabs/kodiak-kb/blob/main/github-settings-access-vigilant-mode.png?raw=true)
+
+Configure git to use your GPG key for signing and ensure that all commits are signed:
 
 ```
 git config --global user.signingkey 32E977BD4B4A0232
