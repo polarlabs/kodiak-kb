@@ -7,4 +7,6 @@ In the future, this knowledge base could become a starting point for Kodiak's us
 
 ## [Create a GitHub repo](github/create-a-repo.md)
 
-## [Publish a crate on crates.io](crate/publish-a-create-on-crates.io)
+## [Publish a crate on crates.io](crate/publish-a-create-on-crates.io.md)
+
+## [Working with GPG](gpg/basics.md)
