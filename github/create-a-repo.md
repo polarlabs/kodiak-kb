@@ -83,6 +83,10 @@ With Dependabot, we keep our dependencies secure and up-to-date. Enable all the 
 - Dependabot security updates
 - Dependabot version updates (enabled by committing *.github/dependabot.yml* within the repo)
 
+## Integrate with Codecov
+
+WIP
+
 # Links
 
 [Developer Certificate of Origin](https://developercertificate.org/)
