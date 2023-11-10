@@ -5,10 +5,12 @@ In the future, this knowledge base could become a starting point for Kodiak's us
 
 # Content
 
-## [Create a GitHub repo](github/create-a-repo.md)
+[Create a GitHub repo](github/create-a-repo.md)
 
-## [Working with Dependabot on GitHub](github/working-with-dependabot.md)
+[Working with Dependabot on GitHub](github/working-with-dependabot.md)
 
-## [Publish a crate on crates.io](crate/publish-a-crate-on-crates.io.md)
+[Publish a crate on crates.io](crate/publish-a-crate-on-crates.io.md)
 
-## [Working with GPG](gpg/basics.md)
+[Working with GPG](gpg/basics.md)
+
+[Select and install CLion Plugins](clion/select-and-install-plugins.md)
