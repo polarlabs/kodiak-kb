@@ -90,3 +90,5 @@ WIP
 # Links
 
 [Developer Certificate of Origin](https://developercertificate.org/)
+
+[GitHub Code Security](https://docs.github.com/en/code-security)
