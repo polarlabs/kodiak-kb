@@ -6,7 +6,7 @@ allowed. Any developer contributing to Kodiak has to sign off commits.
 
 This ensures that all commits are verified:
 
-![Screenshot of a verified commit](https://github.com/polarlabs/kodiak-kb/blob/main/github-commit-verified.png?raw=true)
+![Screenshot of a verified commit](github-commit-verified.png?raw=true)
 
 In short this involves:
 
@@ -104,11 +104,11 @@ Export the public key:
 
 Add the GPG Public Key to your GitHub Account:
 
-![Screenshot of Github account settings (GPG Keys)](https://github.com/polarlabs/kodiak-kb/blob/main/github-settings-access-gpg-keys.png?raw=true)
+![Screenshot of Github account settings (GPG Keys)](github-settings-access-gpg-keys.png?raw=true)
 
 Make also sure you enable vigilant mode.
 
-![Screenshot of Github account settings (Vigilant mode)](https://github.com/polarlabs/kodiak-kb/blob/main/github-settings-access-vigilant-mode.png?raw=true)
+![Screenshot of Github account settings (Vigilant mode)](github-settings-access-vigilant-mode.png?raw=true)
 
 Configure git to use your GPG key for signing and ensure that all commits are signed:
 

@@ -17,7 +17,7 @@ In the future, this knowledge base could become a starting point for Kodiak's us
 
 [Create a GitHub repo](github/create-a-repo.md)
 
-[Define a license](github/define-a-license.md)
+[Define a license](license/apply-a-license.md)
 
 [Working with Dependabot on GitHub](github/working-with-dependabot.md)
 

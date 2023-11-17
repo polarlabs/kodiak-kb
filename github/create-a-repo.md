@@ -12,7 +12,7 @@ Think about this before you start creating a repository.
 - License: We choose MIT license for all contributions to the community.
 
 **Note:** Don't set the license when creating the repository. It's preferred to set the license by adding a license file to the repo root. 
-See [Define a license](define-a-license.md) for more details.
+See [Define a license](../license/apply-a-license.md) for more details.
 
 ## General Settings
 
